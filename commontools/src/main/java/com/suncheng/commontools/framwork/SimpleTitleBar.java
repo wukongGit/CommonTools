@@ -43,7 +43,7 @@ public class SimpleTitleBar extends RelativeLayout {
     }
 
     /**
-     * 左部的View
+     * Left View
      * @param leftView
      */
     public void setLeftView(View leftView) {
@@ -65,7 +65,7 @@ public class SimpleTitleBar extends RelativeLayout {
     }
 
     /**
-     * 右边的view
+     * Right view
      * @param rightView
      */
     public void setRightView(View rightView) {
@@ -87,7 +87,7 @@ public class SimpleTitleBar extends RelativeLayout {
     }
 
     /**
-     * 中间的view
+     * Middle view
      * @param centerView
      */
     public void setCenterView(View centerView) {
@@ -113,7 +113,7 @@ public class SimpleTitleBar extends RelativeLayout {
     }
 
     /**
-     * 显示back按钮，同时设置点击事件
+     * set back button visible and enable click event
      * @param listner
      */
     public void setBackListner(OnClickListener listner) {
