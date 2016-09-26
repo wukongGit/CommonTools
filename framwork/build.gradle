@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+//1,gradlew install
+//2,gradlew bintrayUpload
 
 ext {
     bintrayRepo = 'maven'
@@ -13,7 +15,7 @@ ext {
     siteUrl = 'https://github.com/wukongGit/CommonTools'
     gitUrl = 'https://github.com/wukongGit/CommonTools.git'
 
-    libraryVersion = '0.0.4'
+    libraryVersion = '0.0.5'
 
     developerId = 'wukong'
     developerName = 'wukong'
@@ -26,7 +28,7 @@ ext {
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "24.0.0"
+    buildToolsVersion '23.0.3'
 
     defaultConfig {
         minSdkVersion 15
