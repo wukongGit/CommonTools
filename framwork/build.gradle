@@ -15,7 +15,7 @@ ext {
     siteUrl = 'https://github.com/wukongGit/CommonTools'
     gitUrl = 'https://github.com/wukongGit/CommonTools.git'
 
-    libraryVersion = '0.0.5'
+    libraryVersion = '0.0.8'
 
     developerId = 'wukong'
     developerName = 'wukong'
